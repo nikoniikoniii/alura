@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Decodificador de Texto</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+<div class="container">
+  <div id="logo">a</div>
+    <div class="flex-container">
+      <label for="entery"></label>
+      <input type="text" name="entery" id="entery" placeholder="Digite seu texto" cols="30" rows="10">
+    </div>
+    <div class="btnDiv">
+      <small>	&#9888;Apenas letras minusculas e sem acento.</small>
+      <button type="submit" id="criptografar" onclick="criptografar()">criptografar</button>
+      <button type="submit" id="descriptografar" onclick="descriptografar()">descriptografar</button>
+    </div>
+  <div id="output" class="resultado">
+    <img src="./assets/img/imagen.svg" alt="">
+    <h2>Nenhuma menssagem encontrada</h2>
+    <p>Digite um texto que você deseja criptografar ou descriptografar</p>
+  </div>   
+</div>
+
+<footer>
+  <p>Desenvolvido por: Nikolas Shiro Nakamura </p>
+</footer>
+
+</body>
+
+<script src="./assets/js/index.js">
+
+
+</script>
+</html>

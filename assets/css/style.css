@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:wght@100;300;400&family=Work+Sans:wght@800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #E5E5E5;
+  color: #0A3871;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+  position: relative;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 90vw;
+  height: 100vh;
+}
+
+.flex-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#logo {
+  position: absolute;
+  top: 40px;
+  left: 84px;
+  font-weight: 31.09px;
+  font-size: 40px;
+  height: 48px;
+}
+
+input {
+  position: absolute;
+  word-break: break-word;
+  width: 680px;
+  height: 48px;
+  bottom: 150px;
+  left: 160px;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 150%;
+  border-style: none;
+  border-radius: 24px;
+  background: transparent;
+  border: none;
+
+  
+}
+
+small {
+  bottom: 155px;
+  left: 264px;
+  position: absolute;
+  color: black;
+}
+
+
+#criptografar {
+  bottom: 72px;
+  left: 240px;
+  position: absolute;
+  Height: 67px;
+  Width: 328px;
+  border-radius: 24px;
+  padding: 24px;
+  background-color: #0A3871;
+}
+
+#criptografar:hover {
+  border-color: #0a4371;
+  background: #0a4371;
+}
+
+#descriptografar  {
+  bottom:72px;
+  left: 592px;
+  position: absolute;
+  Height: 67px;
+  Width: 328px;
+  border-radius: 24px;
+  padding: 24px;
+  border-color: #0A3871;
+  background-color: #D8DFE8;
+}
+
+#descriptografar:hover {
+  border-color: #0A3871;
+  background-color: #cee2fc;
+}
+
+.resultado {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  height: 90%;
+  padding: 40px;
+  background: white;
+  border-radius: 24px;
+  text-align: center;
+  color: black;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150%;
+}
+
+.resultado.limpo {
+  justify-content: flex-start;
+}
+
+img {
+  min-width: 100px;
+  padding: 30px;
+}
+
+#output {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150%;
+  
+}
